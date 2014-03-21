@@ -3,6 +3,7 @@ object {
   top: 3.75em; /* 60px */
   float: right;
   margin-right: .5em;
+  margin-bottom: 1em;
   z-index: 2;
   max-width: 26em; /* 400px */
 }
@@ -26,7 +27,7 @@ p {
   top: 2.5em; /* 40px */
 }
 h2.afterpic {
-  margin-top: 368px; /* 350px */
+  margin-top: 420px; /* 350px */
 }
 
 .container {
