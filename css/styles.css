@@ -14,8 +14,7 @@ object {
   max-width: 100%;
 }
 p {
-  margin-top: -.9375em; /* -15px */
-  border-top: 2px solid #6D6E70;
+  margin-top: -.0625em; /* -15px */
   padding: 0 10em 0 3.75em; /* 0 160px 0 60px */
 
 }
@@ -25,11 +24,10 @@ p {
   background: url("../img/nessst_pic.jpg") no-repeat;
   width: 59.625em; /* 954px */
   height: 35.1875em; /* 563px */
-  border-bottom: 2px solid #aaa;
   top: 2.5em; /* 40px */
 }
-ul + h2 {
-  margin-top: 350px; /* 350px */
+h2.afterpic {
+  margin-top: 368px; /* 350px */
 }
 
 .container {
@@ -90,6 +88,7 @@ h2 {
   margin: 0;
   color: #777;
   text-transform: uppercase;
+  border-bottom: 2px solid #CCCCCC;
 }
 
 p.last {
