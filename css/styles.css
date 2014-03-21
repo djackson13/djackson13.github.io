@@ -1,9 +1,10 @@
 object {
   position: relative;
   top: 3.75em; /* 60px */
-  left: 34.6875em; /* 555px */
+  float: right;
+  margin-right: .5em;
   z-index: 2;
-  max-width: 25em; /* 400px */
+  max-width: 26em; /* 400px */
 }
 .logo object {
   top: 0;
@@ -14,9 +15,7 @@ object {
   max-width: 100%;
 }
 p {
-  margin-top: -.0625em; /* -15px */
   padding: 0 10em 0 3.75em; /* 0 160px 0 60px */
-
 }
 .mainpic {
   position: absolute;
@@ -42,12 +41,12 @@ object + ul {
   font-size: 42px;
   color: #6D6E70;
   position: relative;
-  top: 140px;
-  left: 555px;
+  top: 300px;
+  left: 400px;
   z-index: 2;
+  top: 6em;
   padding-left: 10px;
   line-height: 40px;
-  width: 400px;
 }
 
 nav ul {
@@ -142,6 +141,12 @@ body#portfolio a#portfolionav {
     border-bottom: 1px solid white;
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media screen and (max-width: 875px) {
   .mainpic {
     display: none;
@@ -163,6 +168,9 @@ body#portfolio a#portfolionav {
     h2.afterpic {
     margin-top: 1em;
   }
+  p {
+    padding-right: 5em;
+  }
 }
 
 /* css lightbox adapted from http://www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/ */
@@ -171,9 +179,10 @@ body#portfolio a#portfolionav {
 
 body, html {
 padding: 0;
-margin: 0;
+margin: 0 auto;
 text-align: left;
 font-family: "lexia";
+max-width: 1800px;
 }
 
 /* Styles the thumbnail */
