@@ -157,6 +157,12 @@ body#portfolio a#portfolionav {
     width: 100%;
     max-width: 100%;
   }
+  object + ul {
+    display: none;
+  }
+  h2.afterpic {
+  margin-top: 0; /* 350px */
+}
 }
 
 /* css lightbox adapted from http://www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/ */
