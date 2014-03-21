@@ -96,6 +96,7 @@ h2 {
   font-size: 3em;
   margin: 0;
   color: #777;
+  text-transform: uppercase;
 }
 
 p.last {
@@ -143,7 +144,7 @@ h2 + ul a:hover {
   border-bottom: 4px solid white;
 }
 
-body#home a#homenav,
+body#about a#homenav,
 body#resume a#resumenav,
 body#portfolio a#portfolionav,
 body#contact a#contactnav {
