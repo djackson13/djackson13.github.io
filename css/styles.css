@@ -2,7 +2,7 @@ object {
   position: relative;
   top: 3.75em; /* 60px */
   float: right;
-  margin: 1em .5em 2em .5em;
+  margin: 4.5em .5em 2em .5em;
   z-index: 2;
   max-width: 26em; /* 400px */
 }
@@ -163,6 +163,34 @@ body#portfolio a#portfolionav {
   }
   p {
     padding-right: 5em;
+  }
+  h2 + ul {
+    height: 124px;
+    width: 200px;
+  }
+  h2 + ul li {
+    background: black;
+    list-style: none;
+    padding: 0px;
+    margin: 5px 10px 5px 0px;
+  }
+
+  h2 + ul a:link, h2 + ul a:visited {
+    color: white;
+    background: black;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    height: 3.75em;
+    line-height: 3.75em;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  h2 + ul a:hover {
+    color: black;
+    background-color: white;
+    border-top: 3px solid white;
+    border-bottom: 4px solid white;
   }
 }
 
