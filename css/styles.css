@@ -32,13 +32,6 @@ ul + h2 {
   margin-top: 350px; /* 350px */
 }
 
-body#home, body#resume {
-  font: normal 1em/1.5 "lexia";
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: left;
-}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -158,9 +151,6 @@ body#contact a#contactnav {
 @media screen and (max-width: 875px) {
   .mainpic {
     display: none;
-  }
-    object {
-    left: 10px;
   }
     object + ul {
     left: 10px;
