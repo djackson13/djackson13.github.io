@@ -2,20 +2,16 @@ object {
   position: relative;
   top: 3.75em; /* 60px */
   float: right;
-  margin-right: .5em;
-  margin-bottom: 1em;
+  margin: 1em .5em 2em .5em;
   z-index: 2;
   max-width: 26em; /* 400px */
 }
-body.resume object {
-  float: none;
-  top: 4em;
-}
+
 .logo object {
   top: 0;
   left: 0;
   z-index: 0;
-  margin-top: 60px;
+  margin-top: 4.25em;
   width: 100%;
   max-width: 100%;
 }
