@@ -5,10 +5,13 @@ object {
   z-index: 2;
   max-width: 25em; /* 400px */
 }
-.logo + object {
+.logo object {
+  top: 0;
+  left: 0;
   z-index: 0;
   margin-top: 60px;
   width: 100%;
+  max-width: 100%;
 }
 p {
   margin-top: -.9375em; /* -15px */
@@ -60,7 +63,7 @@ nav ul {
   padding: 0;
   margin: 0;
   width: 100%;
-  max-width: 954px;
+  max-width: 100%;
   background: black;
   height: auto;
   list-style: none;
@@ -170,7 +173,7 @@ body#contact a#contactnav {
 body, html {
 padding: 0;
 margin: 0;
-text-align: center;
+text-align: left;
 font-family: "lexia";
 }
 
