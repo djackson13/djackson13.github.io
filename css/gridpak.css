@@ -45,6 +45,9 @@
         p {
             padding: 0 4em 0 2em;
         }
+        .lightbox-target:target a.lightbox-close {
+            top: 28px;
+        }
         
         
         /*

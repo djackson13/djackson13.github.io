@@ -293,7 +293,7 @@ max-width: 100%;
 }
 
 .lightbox-target:target a.lightbox-close {
-top: 0px;
+top: 50px;
 }
 
 
