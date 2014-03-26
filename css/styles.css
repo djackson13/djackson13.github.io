@@ -144,6 +144,7 @@ body#portfolio a#portfolionav {
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  margin-bottom: 1.5em;
 }
 .vid iframe {
   position: absolute;
@@ -151,8 +152,8 @@ body#portfolio a#portfolionav {
   left: 0;
   width: 100%;
   height: 100%;
-  max-width: 640px;
-  max-height: 360px;
+  max-width: 853px;
+  max-height: 480px;
   margin-left: 1.75em;
   z-index: -1;
 }
@@ -184,6 +185,15 @@ body#portfolio a#portfolionav {
   h2 + ul a:link, h2 + ul a:visited {
     font-size: .625em;
     padding: auto 5px;
+  }
+}
+
+@media screen and (min-width: 835px) {
+    .vid {
+    padding-bottom: 0; /* 16:9 */
+   /* padding-top: 0;*/
+   height: 480px;
+   width: 853px;
   }
 }
 
