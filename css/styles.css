@@ -153,6 +153,8 @@ body#portfolio a#portfolionav {
   height: 100%;
   max-width: 640px;
   max-height: 360px;
+  margin: 0 1em;
+  z-index: -1;
 }
 
 @media screen and (max-width: 875px) {
