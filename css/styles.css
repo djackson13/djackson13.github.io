@@ -145,17 +145,20 @@ body#portfolio a#portfolionav {
   padding-top: 25px;
   height: 0;
   margin-bottom: 1.5em;
+  z-index: -2;
+  display: block;
 }
-.vid iframe {
+.vid iframe, .vid video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  max-width: 853px;
+  max-width: 854px;
   max-height: 480px;
   margin-left: 1.75em;
   z-index: -1;
+  display: block;
 }
 
 .list-1, .list-2 {
