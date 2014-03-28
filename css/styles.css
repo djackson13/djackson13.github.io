@@ -56,7 +56,6 @@ nav li {
   display: inline;
   float: left;
   padding: .625em 0;
-  background: black;
 }
 
 nav a:link, nav a:visited {
