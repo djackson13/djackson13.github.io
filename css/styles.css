@@ -1,6 +1,6 @@
 object {
   position: relative;
-  float: right;
+  float: left;
   margin: 4.5em .5em 2em .5em;
   z-index: 2;
   max-width: 26em; /* 400px */
@@ -39,9 +39,28 @@ footer.row p.col {
   padding-top: 1em;
 }
 
-nav ul {
+#menu-outer {
+  height: 84px;
+  background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  }
+  ul#horizontal-list li {
+    display: inline;
+  }
+
+/*nav ul {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   max-width: 100%;
   background: black;
@@ -68,7 +87,7 @@ nav a:hover {
   background: white;
   font-weight: bold;
   border-bottom: 1px solid white;
-}
+}*/
 
 h2 {
   font-family: "proxima-nova-extra-condensed",sans-serif;
