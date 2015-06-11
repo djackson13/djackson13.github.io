@@ -1,8 +1,8 @@
 /* this is my logo positioning */
 object {
   position: relative;
-  float: left;
-  margin: 4.5em .5em 2em .5em;
+  float: right;
+  /* margin: 4.5em .5em 2em .5em; */
   z-index: 2;
   max-width: 26em; /* 400px */
 }
