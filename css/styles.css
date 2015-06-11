@@ -159,7 +159,7 @@ ul.hlist, ul.list-1, ul.list-2 {
     top: 0;
     left: 0;
     z-index: 0;
-    margin-top: 3.75em;
+    /* margin-top: 3.75em; */
     width: 100%;
     max-width: 100%;
   }
